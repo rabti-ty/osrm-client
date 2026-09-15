@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "osrm-client"
+version = "0.1.0"
+description = "Minimal client for a self-hosted OSRM instance's /table (driving distance matrix) endpoint - shared between TGSRTCEngine and MetroEngine."
+authors = ["Rabti Ranjan <ranjan.rabti@gmail.com>"]
+readme = "README.md"
+packages = [{ include = "osrm_client" }]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
